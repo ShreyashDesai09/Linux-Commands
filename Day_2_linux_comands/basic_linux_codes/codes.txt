@@ -1,0 +1,19 @@
+THIS TXT FILE CONTAINS CODES OF LINUX
+ 
+1) CD - CHANGE DIRECTORY
+2) LS - LIST
+3) ls -l - time of creation
+4) pwd - location
+5) touch - Used for creating new file(.txt,.pdf,etc)
+6) mkdir - Makes new Directory (File)
+7) rmdir - Remove exisiting Directory(File)
+8) cat - Used to Read inside the file
+9)head - show first 5 lines
+10) tail - show last 5 lines
+11) less - shows everything in page by page but less pages
+12) more - similar to less but shows more
+ 
+ABOVE WERE BASICS
+------More Hard Level Linux Codes-----
+
+

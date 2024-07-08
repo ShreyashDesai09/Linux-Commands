@@ -1,0 +1,56 @@
+
+
+
+---------- Compression Commands ----------
+
+
+1) zip - used to compress all data into a zip file and can be used to send it
+
+	zip (file name) (what to zip)
+
+	use -r for zipping folder
+
+   uzip - unzip zip file
+
+   	unzip (file name) (location if wanted)
+
+   gunzip/gzip - other tools for zip 
+
+2) tar - 
+
+	tar -cvzf (file name) (what to tar)
+
+	c = compress
+	x = extract 
+	v = (verbos) display info
+	z = zip
+	f = file
+
+	tar -xvzf (file name) (location if wanted)
+
+---------- File Command ----------
+
+
+1) scp - sceured copy 
+	
+	can be used to copy between two different scervers 
+	local server and AWS server
+
+	steps - 
+	
+	i   scp (copied link of ssh)
+	ii  remove ssh 
+	iii copy paste of loaction of file
+	iv  file name
+	v   (at end):location of where to paste it
+
+
+****** command-private_key_path-source-destination ******
+
+2) rsync - remote sync 
+	   it syncs both local server and AWS server so that if we do changes at one server it does the same at other server
+
+****** command -e - "ssh - private key path" -avz - soucre - "local folder path" ******
+
+
+note - change path i.e server to local or local to server to do it for server to local shift or local to server shift

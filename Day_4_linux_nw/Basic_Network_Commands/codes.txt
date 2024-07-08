@@ -1,0 +1,61 @@
+
+
+---------- Networking Commands ----------
+
+Note - net-tools are required ti be installed for Networking Commands
+
+1)  ping - tells the network speed of a particular website
+
+	ping www.google.com
+
+2)  netstat - Tells Active established connections
+
+3)  ifconfig - InterFace 
+	       Current 
+
+4)  traceroute vs tracepath - In order to access any server your device uses DNS technique to hop from server to server in oder to det to the final server
+			      So to find the hoping path we user "traceroute" 
+
+		tracepath - tells the ip address
+
+5)  mtr (my trace route) - it is a combination of both ping and tracepath 		
+
+6)  nslookup - tells which ip address (IPv4) and name address (IPv6) it there and if it is active or not
+
+7)  telnet - does same as nolokup but can be done with port no. we want to access it 
+	     E.G - 80 , 443
+
+8)  Hostname - Tells what is host name of system 
+
+	Hostname can be changed by /etc/host 
+
+9)  ip - Internet Protocol 
+
+	ip address show - name of computer ip adderss
+
+10) iwconfig - wireless connections 
+	
+	tells wireless connections
+
+11) ss - same as netstat
+
+12) dig - tells domain ip address,where it is hosted
+	
+	dig (WEBSITENAME)
+
+13) whois - from where the websites domain registry is brought
+
+	whois (WEBSITENAME)
+
+14) nc (netcat) - 
+
+15) arp - Adress Resolution Protocol 
+	
+	Tells Mac adress 
+	Compuer requests mac address from router and that router provides mac address to the system that address is told by arp
+
+16) ifplugstatus - interface plug status 
+
+	Tells if interfaces are running or not
+
+-----------------------------------------------------------------------------------------------

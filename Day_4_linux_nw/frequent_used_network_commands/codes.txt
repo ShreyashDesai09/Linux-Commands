@@ -1,0 +1,39 @@
+
+
+------------ THIS FILE CONTAINS ALL THE FREQUENT USED LINUX COMMAND -------------
+
+1)  curl vs wget - 
+
+	curl - Used to calls API Endpoints
+
+		Our Request is given to API and that API gives us response as per expected
+
+		curl -x GET (api endpoint)
+
+		* | jq - displays the curl data in proper manner*
+
+		curl -x GET (api endpoint) |jq
+
+	wget - used to download something from internet
+
+		wget (file link)
+
+2) iptables - 
+
+	sudo iptables --list-rules
+
+3) Watch - if we need o/p of a command we use watch
+
+	watch top
+	watch mtr 
+
+	to change the seconds for loop (default 2 sec) - watch -n 5
+
+4) nmap - Network map
+		
+		similar to route table
+		tells if which ports are open or not
+
+5) routes - to change 
+
+--------------------------------------------------------------------------------------------------

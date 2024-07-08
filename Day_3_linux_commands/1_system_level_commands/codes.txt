@@ -1,0 +1,58 @@
+
+
+-----     -----     
+
+
+1) uname - system used for writing commands
+
+	ubuntu - linux
+	darwin - mac os
+
+2) uptime - for how long the system is running (timming)	
+	    also how many users are active and how much time they are using it
+
+3) date - tells date
+
+4) who,whoami -
+
+	who - which user logged in and how many users are logged in
+	whoami - current system logged in user name 
+
+5) which - location of that version/exectue file 
+	   ..... which bash
+	   	 which cp
+		 which java
+	   if it is pesent it will show
+
+6) id - particular files id,group id
+
+7) sudo - gives commands to root
+	  sudo = Super User DO 
+	  root = main room don't have permissions to enter in it
+
+8) shutdown - shutdown pc
+	      cannot be easily shutdown but need to use "SUDO"
+   shutdown -c - cancel shutdown
+
+9) rebot - restart pc
+   *SUDO needed*
+
+10) apt - Application Package Manager
+	  used for installation of applications
+    *SUDO*
+	
+    sudo apt-get ..... - downloaded from internet and installed
+    
+    sudo apt-get update - updates the programms that are required for installing process
+
+    sudo apt remove .... - removed application/programm	
+
+11) yum/dnf/pacman/portage/rpm - similar to apt but are used for different linux versions
+
+	yum - Centos Linux 
+	dnf - Fedora Linux
+	pacman - Arch Linux
+	portage - Gento linux
+	rpm - Redhat Linux
+
+

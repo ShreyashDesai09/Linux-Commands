@@ -1,0 +1,46 @@
+
+-------THIS IS THIRD CODE TEXT FILE FOR LINUX-------
+
+------Login Related-----
+1) ssh -  Secured Shell or Secured Socket Shell
+	  Shows what key u=you have in your desktop 
+	  
+	  ssh -i (path to private key file) (user name)@(public DNS)
+
+	  this connects to the computer which you were operating using AWS
+
+   PUTTY - For Windows
+
+------Disk Usage------
+
+1) df - shows storage of computer
+   df -h - More info about storage
+
+2) du - Disk Utility
+	Tells about a particular file storege
+   du . - tells folder and it's storage in a particular directory 
+   ----- . = indicates hidden -----
+
+------Processes------
+
+1) top - tells all processes 
+	use Q to quit
+
+2) ps - shows folders on which process id it's working
+
+3) fuser - for a particular file
+
+4) kill -9 - kills a process
+
+5) free - tells disk space
+   free -h - in detail
+
+6) nohup - stores the o/p of a command
+
+7) vmstat - shows virtual memory
+   vmstat -a - active and inactive
+
+   -----Shows about RAM-----
+ 
+----------LINUX COMMANDS BY TRAINWITHSHUBHAM DAY 2 ENDS HERE----------
+

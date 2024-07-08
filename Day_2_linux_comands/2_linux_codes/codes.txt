@@ -1,0 +1,21 @@
+
+
+
+THIS CONTAINS 2nd LEVEL OF BASIC LINUX CODES
+
+1) cp - copy
+2) mv - move
+3) wc - word count (lines,words,bites)
+4) ln - links 
+	i) Hard link - if main file is deleted shortcut will stay
+	ii) Soft link -both files are deleted if main is deleted 
+5) cut - similar to cat but gives bite wise o/p e.g cut -b 1-10 codes.txt
+6) | tee - shows what is printed inside text and updates inside the text file but clears what was before it
+SHREYASH
+7) sort - Sorts everyting alphabitically
+8) diff - difference
+9) clear - clears
+10) vi - opens editor 
+	i - insert mode - ESC to exit
+    after this do :wq to write and quit
+------THIS ENDS HERE------

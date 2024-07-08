@@ -1,0 +1,45 @@
+
+
+----------     Users and Group Management Commands     ----------
+
+
+Note - 
+i.  How to check all users  - cat /etc/passwd  = for AWS instances
+ii. How to check all groups - cat /etc.group = for AWS instances
+
+
+
+1) useradd - used to create new user inside the system
+
+	sudo useradd -m .....
+
+2) passwd - creating new password 
+	
+	sudo passwd .....
+
+3) su - switch user
+	
+	switching to other user
+
+	su .....
+
+4) exit - exit the new user and goes back to main user (ubuntu) 
+
+5) userdel - delete user 
+	
+	sudo userdel .....
+
+6) groupadd - create new group 
+
+	sudo groupadd .....
+
+7) gpasswd - group password
+
+	sudo gpasswd -a (username) (groupname) - single user add
+	sudo gpasswd -M (suername) (groupname) - multi user add
+
+8) groupdel - delete group 
+
+	sudo groupdel .....
+
+

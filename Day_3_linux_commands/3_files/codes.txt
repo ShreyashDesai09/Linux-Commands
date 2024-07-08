@@ -1,0 +1,53 @@
+
+
+---------- File Permission Commands ----------
+
+
+
+1) umask - User file-creation mode mask
+	
+	when a work is done then bydefault what permissions that file/directory should possess 
+
+
+
+2) ls -l - to see permissions of file
+
+E.G :- 
+     i) drwxrwxr-x - d   = directory
+		     rwx = user
+		     rwx = group
+		     r-x = other user
+
+	r = read
+	w = write
+	x = execute
+	
+	0 ---
+	1 --x
+	2 -w-
+	3 -wx
+	4 r--
+	5 r-x
+	6 rw-
+	7 rwx
+    
+    ii) -rw-rw-r-- - -   = file
+    		     rw- = user
+		     rw- = group
+		     r-- = other user
+
+	
+
+3) chmod - change modification 
+	
+	chages the file permissions for the file
+
+	chmod (file permission no.) (directory/file name)
+
+4) chown command - change file ownership to other user
+
+	sudo chown (user name) (file name)
+
+5) chdrp command - change group ownership to other user
+
+	sudo chgrp (user name) (group name)
