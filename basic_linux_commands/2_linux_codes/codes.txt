@@ -10,7 +10,8 @@ THIS CONTAINS 2nd LEVEL OF BASIC LINUX CODES
 	i) Hard link - if main file is deleted shortcut will stay
 	ii) Soft link -both files are deleted if main is deleted 
 5) cut - similar to cat but gives bite wise o/p e.g cut -b 1-10 codes.txt
-6) | tee - shows what is printed inside text and updates inside the text file but clears what was before it
+6) | tee - shows what is printed inside text and updates inside the text 
+file but clears what was before it
 SHREYASH
 7) sort - Sorts everyting alphabitically
 8) diff - difference

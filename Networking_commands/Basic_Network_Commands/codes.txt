@@ -13,7 +13,8 @@ Note - net-tools are required ti be installed for Networking Commands
 3)  ifconfig - InterFace 
 	       Current 
 
-4)  traceroute vs tracepath - In order to access any server your device uses DNS technique to hop from server to server in oder to det to the final server
+4)  traceroute vs tracepath - In order to access any server your device uses DNS technique to hop 
+			      from server to server in oder to det to the final server
 			      So to find the hoping path we user "traceroute" 
 
 		tracepath - tells the ip address
