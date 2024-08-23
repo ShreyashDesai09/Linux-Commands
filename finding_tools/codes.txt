@@ -1,0 +1,54 @@
+
+
+
+----------LAST PART OF LINUX COMMANDS----------
+
+
+---THIS TEXT FILE CONTAINS ALL FINDING TOOLS IN LINUX---
+
+1) GREP - Global Regular Expression Print
+	it is used to find a file, directory or a word
+	It is case sensitive
+
+	grep (what to find) (where to find)
+
+	-i = case sensitive
+	-r = recursively
+
+2) FIND - similar to grep
+
+	find (location if wanted) -name (what to find)
+
+3) AWK - It prints with the colums and can bifergate accordin our needs
+
+	awk (condition) (what to find) (which column to print) (where to find)
+
+
+	EXAMPLE :- awk '$1>="2023-06-12" && NR>=1 && NR<=10' /ERROR/ {print NR $1,$4,$7} qpp.log
+
+
+	conditions = It is the no. of how many rows you want . 'NR>= 1 && NR<=10' [NR = No. of Rows]
+	column = it shows which coluum to print when you get the specific (what to find) and print it .
+			{print NR $1,$3,$5} [$1 = 1st column ....]
+	
+
+
+4) SED - screen editor
+	
+	It replaces the word from a txt file and replaces it with what we want
+
+	sed 's/test@123/querty@123/g' dev.env
+
+	s= string
+	test@123 = It is to be changed
+	querty@123 = What it is replaced with 
+	g = globally (everything is replacced)
+		1 first word changed
+		2 second word changed
+		.
+		.
+		.
+	dev.env = in what file it should be changed
+
+
+--------------------------END------------------------------------

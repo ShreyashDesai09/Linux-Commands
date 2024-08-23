@@ -33,10 +33,13 @@ ii. How to check all groups - cat /etc.group = for AWS instances
 
 	sudo groupadd .....
 
-7) gpasswd - group password
+7) gpasswd - add user to a group  
 
 	sudo gpasswd -a (username) (groupname) - single user add
 	sudo gpasswd -M (suername) (groupname) - multi user add
+	
+	Also
+	sudo usermad -aG (groupname) (username)
 
 8) groupdel - delete group 
 
