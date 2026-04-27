@@ -5,7 +5,7 @@
 
 Note - 
 i.  How to check all users  - cat /etc/passwd  = for AWS instances
-ii. How to check all groups - cat /etc.group = for AWS instances
+ii. How to check all groups - cat /etc/group = for AWS instances
 
 
 
